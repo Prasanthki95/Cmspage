@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceContainer name="content">
+        	<block class="Magento\Framework\View\Element\Template" name="custom_phtml_in_cms" template="I95dev_Cmspage::test.phtml" />
+
+<!--            <block class="Magento\Framework\View\Element\Template" name="homepage_slider" template="I95dev_CmsPage::test.phtml" />-->
+
+<!--            <block class="Magento\Cms\Block\Block" name="homepage-slider">-->
+<!--                <arguments>-->
+<!--                    <argument name="block_id" xsi:type="string">home-page-block</argument>-->
+<!--                </arguments>-->
+<!--            </block>-->
+        </referenceContainer>
+    </body>
+</page>

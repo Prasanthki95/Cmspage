@@ -1,0 +1,5 @@
+<?php
+
+echo "<h1>Custom Cms Page</h1>";
+
+echo $this->getLayout()->createBlock('Magento\Cms\Block\Block')->setBlockId('custom_block')->toHtml();
